@@ -5,59 +5,100 @@
   <title>Exercicio 1 </title>
   <style type="text/css">
 
+      body {
+        width: 960px;
+        margin: 0 auto;
+      }
+
       header {
         display: block;
       }
 
-      #diego {
-        background-color: blue;
+      header .title{
+        background: red;
+        margin-bottom: 0;
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+
+      header .menu {
+        background: blue;
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+
+      header nav a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+      }
+
+
+       .content p{
+        overflow: hidden;
+      }
+
+      article .list {
+        border-style: solid;
+        padding: 10px;
+        margin-right: 10px; 
+        float:right;
+        margin-left: 10px;
+      }
+
+      footer {
+        background: grey;
       }
 
   </style>
 </head>
   <body>
-    <header>
-      <h1> Site Name </h1>
-      <nav>
-           <a href="#">Link1</a>
-           <a href="#">Link1</a>
-           <a href="#">Link1</a>
-           <a href="#">Link1</a>
-           <a href="#">Link1</a>
-      </nav>
-    </header>
-    <section>
-     <h1>Quem é o bonitão?</h1>
-     <p>Ítalo?</p>
-     <p id="diego">Diego?</p>
-     <h2>Título</h2>
-     <p>Outro dessa sala?</p>
-    </section>
-    <section>
-      <article>
+      <div class="container">
         <header>
-          <h1>
-            HEADING
-          </h1>
-        </header>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        </p>
-        <aside>
-          <nav>
-            <h3> Block Header </h3>
-            <ul>
-              <li>Item1</li>
-              <li>Item1</li>
-              <li>Item1</li>
-              <li>Item1</li>
-            </ul>
+        <h1 class="title"> Site Name </h1>
+        <nav class="menu">
+             <a href="#">Link1</a>
+             <a href="#">Link1</a>
+             <a href="#">Link1</a>
+             <a href="#">Link1</a>
+             <a href="#">Link1</a>
           </nav>
-        </aside>
-      </article>
-    </section>
-    <footer>
-      copyright
-    </footer>
+        </header>
+        <section>
+          <article>
+            <div class="content">
+                <h1>
+                  HEADING
+                </h1>
+              <aside class="list">
+                <nav>
+                  <h3> Block Header </h3>
+                  <ul>
+                    <li>Item1</li>
+                    <li>Item1</li>
+                    <li>Item1</li>
+                    <li>Item1</li>
+                    <li>Item1</li>
+                    <li>Item1</li>
+                    <li>Item1</li>
+                    <li>Item1</li>
+                  </ul>
+                </nav>
+              </aside>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+              
+            <!-- </div> -->
+          </article>
+        </section>
+        <footer>
+          copyright
+        </footer>
+      </div>
   </body>
 </html>
