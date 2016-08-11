@@ -1,0 +1,133 @@
+body {
+  width: 820px;
+  margin: 0 auto;
+}
+
+/*LEFT CSS LEFT CSS LEFT CSS LEFT CSS LEFT CSS LEFT CSS LEFT CSS LEFT CSS LEFT CSS*/
+/*.left_line1 {
+  float: left;
+  width: 10px;
+  border: 10px solid black;
+  padding: 85px 20px;
+  margin: 0;
+}
+
+.left_line2 {
+  float:left;
+  width: 10px;
+  border: 10px solid black;
+  padding: 85px 20px;
+  margin: 0;
+}*/
+
+
+/*CONTENT CSS CONTENT CSS CONTENT CSS CONTENT CSS CONTENT CSS CONTENT CSS CONTENT CSS */
+.content_line1col1 {
+  float: left;
+  border: 10px solid black;
+  padding: 85px 25px;
+  margin: 0;
+}
+.content_line1col2 {
+  float:left;
+  border: 10px solid black;
+  padding: 85px 40px;
+  background: yellow;
+}
+
+.content_line1col3 {
+  float:left;
+  border: 10px solid black;
+  padding: 85px 80px;
+  background: red;
+}
+
+.content_line1col4 {
+  float:left;
+  border: 10px solid black;
+  padding: 85px 120px;
+  background: blue;
+}
+
+.content_line1col5 {
+  float:left;
+  border: 10px solid black;
+  padding: 85px 30px;
+  background: yellow;
+}
+
+.content_line1col6 {
+  float:left;
+  border: 10px solid black;
+  padding: 85px 30px;
+  background: white;
+}
+
+.content_line2col1 {
+  float: left;
+  border: 10px solid black;
+  padding: 105px 25px;
+  margin: 0;
+}
+
+.content_line2col2 {
+  float: left;
+  border: 10px solid black;
+  padding: 105px 40px;
+  margin: 0;
+}
+
+.content_line2col3 {
+  float: left;
+  width: 10px;
+  border: 10px solid black;
+  padding: 105px 80px;
+  margin: 0;
+}
+
+.content_line2col4 {
+  float: left;
+  border: 10px solid black;
+  padding: 105px 40px;
+  margin: 0;
+}
+
+.content_line2col5 {
+  float: left;
+  border: 10px solid black;
+  padding: 105px 70px;
+  margin: 0;
+  background: red;
+}
+
+.content_line2col6 {
+  float: left;
+  border: 10px solid black;
+  padding: 105px 30px;
+  margin: 0;
+  background: blue;
+}
+
+.content_line2col7 {
+  float: left;
+  border: 10px solid black;
+  padding: 165px 25px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.content_line3col1 {
+  float: left;
+  border: 10px solid black;
+  padding: 165px 25px;
+}
+
+
+/* RIGHT CSS RIGHT CSS RIGHT CSS RIGHT CSS RIGHT CSS RIGHT CSS RIGHT CSS RIGHT CSS RIGHT CSS RIGHT CSS */
+
+/*.right_line1 {
+  float:left;
+  border: 10px solid black;
+  padding: 85px 30px;
+  background: white;
+}*/
